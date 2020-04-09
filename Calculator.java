@@ -1,18 +1,27 @@
-public class Calculator {
-   public static void main(String[] args) {
-      switch("op") {
-         case '+': ans = "num1" + "num2";
-            break;
-         case '-': ans = "num1" - "num2";
-            break;
-         case '*': ans = "num1" * "num2";
-            break;
-         case '/': ans = "num1" / "num2";
-            break;
-         default:  System.out.printf("Error! Enter correct operator");
-            return;
-      }
-      System.out.print("\nThe result is given as follows:\n");
-      System.out.printf("num1" + " " + "op" + " " + "num2" + " = " + ans);
-   }
-}
+public class Odd_Even 
+ {
+	public static void main(String[] args) 
+		{
+	
+
+            System.out.print("Enter the number you want to check:");
+
+            if("n" % 2 == 0)
+
+            {
+
+                System.out.println("The given number "+"n"+" is Even ");
+
+            }
+
+            else
+
+            {
+
+                System.out.println("The given number "+"n"+" is Odd ");
+
+    	}
+
+        }
+
+    }
