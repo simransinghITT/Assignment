@@ -10,7 +10,7 @@ public class Odd_Even
 
             {
 
-                System.out.println("The given number "+int("n")+" is Even ");
+         System.out.println("The given number "+Interger.parseInt("n")+" is Even ");
 
             }
 
@@ -18,7 +18,7 @@ public class Odd_Even
 
             {
 
-                System.out.println("The given number "+int("n")+" is Odd ");
+            System.out.println("The given number "+Integer.parseInt("n")+" is Odd ");
 
     	}
 
