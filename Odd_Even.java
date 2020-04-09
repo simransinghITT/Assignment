@@ -10,7 +10,7 @@ public class Odd_Even
 
             {
 
-         System.out.println("The given number" + Interger.parseInt("n") + "is Even ");
+         System.out.println("The given number" + Integer.parseInt("n") + "is Even ");
 
             }
 
