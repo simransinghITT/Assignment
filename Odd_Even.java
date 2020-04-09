@@ -2,8 +2,8 @@ public class Odd_Even
  {
 	public static void main(String[] args) 
 		{
-
-            int i = Integer.parseInt(n);
+             
+            int i = System.getProperty("n");
             if(i % 2 == 0)
 
             {
