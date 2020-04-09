@@ -1,8 +1,5 @@
 public class Calculator {
    public static void main(String[] args) {
-      double num1=0;
-      double num2=0;
-      double ans=0;
       switch("op") {
          case '+': ans = "num1" + "num2";
             break;
