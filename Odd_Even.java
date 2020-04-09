@@ -4,7 +4,7 @@ public class Odd_Even
 		{
              
             String t = System.getProperty("n");
-	    int i = Integer.parseInt(t)
+	    int i = Integer.parseInt(t);
             if(i % 2 == 0)
 
             {
