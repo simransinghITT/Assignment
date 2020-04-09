@@ -6,7 +6,7 @@ public class Odd_Even
 
             System.out.print("Enter the number you want to check:");
 
-            if(int("n") % 2 == 0)
+            if(Integer.parseInt("n") % 2 == 0)
 
             {
 
