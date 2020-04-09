@@ -4,7 +4,7 @@ public class Calculator {
       double num2=0;
       double ans=0;
       char $op;
-      switch($op) {
+      switch("op") {
          case '+': ans = $num1 + $num2;
             break;
          case '-': ans = $num1 - $num2;
