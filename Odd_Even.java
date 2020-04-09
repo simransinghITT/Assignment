@@ -6,11 +6,11 @@ public class Odd_Even
 
             System.out.print("Enter the number you want to check:");
 
-            if(n % 2 == 0)
+            if(int("n") % 2 == 0)
 
             {
 
-                System.out.println("The given number "+n+" is Even ");
+                System.out.println("The given number "+int("n")+" is Even ");
 
             }
 
@@ -18,7 +18,7 @@ public class Odd_Even
 
             {
 
-                System.out.println("The given number "+n+" is Odd ");
+                System.out.println("The given number "+int("n")+" is Odd ");
 
     	}
 
