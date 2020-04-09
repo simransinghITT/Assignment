@@ -1,9 +1,9 @@
 public class Calculator {
    public static void main(String[] args) {
-      double num1;
-      double num2;
+      double $num1;
+      double $num2;
       double ans;
-      char op;
+      char $op;
       switch($op) {
          case '+': ans = $num1 + $num2;
             break;
