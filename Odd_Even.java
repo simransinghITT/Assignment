@@ -2,14 +2,12 @@ public class Odd_Even
  {
 	public static void main(String[] args) 
 		{
-             
-            String t = System.getProperty("n");
-	    int i = Integer.parseInt(t);
-            if(i % 2 == 0)
+            
+            if(arg[0] % 2 == 0)
 
             {
 
-         System.out.println("The given number" + i + "is Even ");
+         System.out.println("The given number" + arg[0] + "is Even ");
 
             }
 
@@ -17,7 +15,7 @@ public class Odd_Even
 
             {
 
-            System.out.println("The given number "+ i +" is Odd ");
+            System.out.println("The given number "+ arg[0] +" is Odd ");
 
     	}
 
