@@ -16,7 +16,7 @@ public class Odd_Even
             	{
 
             		System.out.println(Integer.parseInt(args[0]) + " is Odd ");
-			int i = Integer.parseInt("n")
+			int i = Integer.parseInt("n");
             		System.out.println( i + " is Odd ");
 
     		}
