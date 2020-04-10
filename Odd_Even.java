@@ -3,11 +3,11 @@ public class Odd_Even
 	public static void main(String[] args) 
 		{
             
-            if(args[0] % 2 == 0)
+            if(Integer.parseInt(args[0]) % 2 == 0)
 
             {
 
-         System.out.println("The given number" + args[0] + "is Even ");
+         System.out.println("The given number" + Integer.parseInt(args[0]) + "is Even ");
 
             }
 
@@ -15,7 +15,7 @@ public class Odd_Even
 
             {
 
-            System.out.println("The given number "+ args[0] +" is Odd ");
+            System.out.println("The given number "+ Integer.parseInt(args[0]) +" is Odd ");
 
     	}
 
