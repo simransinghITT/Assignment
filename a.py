@@ -1,11 +1,14 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 import subprocess
-import cgi
 import os
+import cgi
 
-print "Content-type: text/html\n\n"
-mydata =  cgi.FieldStorage()
-docker_name = mydata.getvalue('name')
-docker_image = mydata.getvalue('image')
+print ("content-type: text/html")
+print()
+
+form =  cgi.FieldStorage()
+docker_name = form.getvalue('n')
+docker_image = form.getvalue('img')
 #os.system('sshpass -p "redhat" ssh s@192.168.43.85 "mkdir ttt"')
-os.system("docker run -d --name docker_name image_name")
+a=subprocess.getoutput("sudo docker run --name {} {}".format(docker_name,docker_image))
+print(a)
