@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python36
 import subprocess
 import os
 import cgi
