@@ -10,6 +10,7 @@ form =  cgi.FieldStorage()
 docker_name = form.getvalue('n')
 docker_image = form.getvalue('img')
 docker_in_system=subprocess.getoutput("sudo docker ps -a --format '{{.Names}}'")
+print(docker_in_system)
 docker_in_system=docker_in_system.split(" ")
 print("Docker present in system are:")
 for i in docker_in_system:
