@@ -12,7 +12,7 @@ docker_image = form.getvalue('img')
 docker_in_system=subprocess.getoutput("sudo docker ps -a --format '{{.Names}}'")
 print("Docker present in system are:")
 a=docker_in_system.split()
-for i in len(a):
+for i in range(0,len(a)):
   print(a[i],sep="\n")
 print("\n")
 output=subprocess.getoutput("sudo docker run --name {} {}".format(docker_name,docker_image))
