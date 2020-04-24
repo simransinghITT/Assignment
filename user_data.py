@@ -3,14 +3,14 @@ import subprocess
 import os
 import cgi
 
-print ("content-type: text/html")
+print("content-type: text/html")
 print()
 
 form =  cgi.FieldStorage()
 docker_name = form.getvalue('n')
 docker_image = form.getvalue('img')
 docker_in_system=subprocess.getoutput("sudo docker ps -a --format '{{.Names}}'")
-docker_in_system=Docker_in_system.split(" ")
+docker_in_system=docker_in_system.split(" ")
 print("Docker present in system are:")
 for i in docker_in_system:
 	print(Docker_in_system)
