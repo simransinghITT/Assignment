@@ -20,4 +20,4 @@ else:
   docker_in_system_list=docker_in_system.split()
   print("<H3>Total docker present in system are: {}</H3>".format(len(docker_in_system_list)))
   for i in range(1,len(docker_in_system_list)+1):
-    print("<H4>{}.<br><br>{}</H4>".format(i,docker_in_system_list[i]))
+    print("<H4>{}.\t\t{}</H4>".format(i,docker_in_system_list[i]))
