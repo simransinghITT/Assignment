@@ -11,7 +11,7 @@ docker_name = form.getvalue('n')
 docker_image = form.getvalue('img')
 dockers_in_system=subprocess.getoutput("sudo docker ps -a --format '{{.Names}}'")
 if(docker_name in dockers_in_system):
-  <H1>Docker already exist please choose another name.</H1>
+  <H1> Docker already exist please choose another name.</H1>
   exit()
 else:
   output=subprocess.getoutput("sudo docker run --name {} {}".format(docker_name,docker_image))
