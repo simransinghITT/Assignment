@@ -19,5 +19,6 @@ else:
   docker_in_system=subprocess.getoutput("sudo docker ps -a --format '{{.Names}}'")
   docker_in_system_list=docker_in_system.split()
   print("<H3>Total docker present in system are: {}</H3>".format(len(a)))
+  print(docker_in_system_list)
   for i in docker_in_system_list:
     print(i)
