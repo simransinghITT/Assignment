@@ -9,8 +9,8 @@ print()
 form =  cgi.FieldStorage()
 docker_name = form.getvalue('n')
 docker_image = form.getvalue('img')
-docker_in_system=subprocess.getoutput("sudo docker ps -a --format '{{.Names}}'")
-if (docker_name in docker_in_system):
+dockers_in_system=subprocess.getoutput("sudo docker ps -a --format '{{.Names}}'")
+if(docker_name in dockers_in_system):
   print("Docker already exist please choose another name.")
   exit()
 else:
