@@ -7,8 +7,8 @@ print("content-type: text/html")
 print()
 
 form =  cgi.FieldStorage()
-docker_name = form.getvalue('n')
-docker_image = form.getvalue('img')
+docker_name = form.getvalue('input_docker_name')
+docker_image = form.getvalue('input_image_name')
 dockers_in_system=subprocess.getoutput("sudo docker ps -a --format '{{.Names}}'")
 if(docker_name in dockers_in_system):
   print("<H1>Docker already exist please choose another name.</H1>")
